@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2741821CA72C700087F8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2741811CA72C700087F8DA /* AppDelegate.swift */; };
+		5C2741841CA72C700087F8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2741831CA72C700087F8DA /* ViewController.swift */; };
+		5C2741871CA72C700087F8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2741851CA72C700087F8DA /* Main.storyboard */; };
+		5C2741891CA72C700087F8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2741881CA72C700087F8DA /* Assets.xcassets */; };
+		5C27418C1CA72C700087F8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C27418A1CA72C700087F8DA /* LaunchScreen.storyboard */; };
+		5C2741971CA72C700087F8DA /* SpeedTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2741961CA72C700087F8DA /* SpeedTouchTests.swift */; };
+		5C2741A21CA72C700087F8DA /* SpeedTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2741A11CA72C700087F8DA /* SpeedTouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C2741931CA72C700087F8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2741761CA72C6F0087F8DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C27417D1CA72C6F0087F8DA;
+			remoteInfo = SpeedTouch;
+		};
+		5C27419E1CA72C700087F8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2741761CA72C6F0087F8DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C27417D1CA72C6F0087F8DA;
+			remoteInfo = SpeedTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C27417E1CA72C6F0087F8DA /* SpeedTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2741811CA72C700087F8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C2741831CA72C700087F8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C2741861CA72C700087F8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C2741881CA72C700087F8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C27418B1CA72C700087F8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C27418D1CA72C700087F8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C2741921CA72C700087F8DA /* SpeedTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2741961CA72C700087F8DA /* SpeedTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTouchTests.swift; sourceTree = "<group>"; };
+		5C2741981CA72C700087F8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C27419D1CA72C700087F8DA /* SpeedTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2741A11CA72C700087F8DA /* SpeedTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTouchUITests.swift; sourceTree = "<group>"; };
+		5C2741A31CA72C700087F8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C27417B1CA72C6F0087F8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C27418F1CA72C700087F8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C27419A1CA72C700087F8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2741751CA72C6F0087F8DA = {
+			isa = PBXGroup;
+			children = (
+				5C2741801CA72C700087F8DA /* SpeedTouch */,
+				5C2741951CA72C700087F8DA /* SpeedTouchTests */,
+				5C2741A01CA72C700087F8DA /* SpeedTouchUITests */,
+				5C27417F1CA72C6F0087F8DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C27417F1CA72C6F0087F8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C27417E1CA72C6F0087F8DA /* SpeedTouch.app */,
+				5C2741921CA72C700087F8DA /* SpeedTouchTests.xctest */,
+				5C27419D1CA72C700087F8DA /* SpeedTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C2741801CA72C700087F8DA /* SpeedTouch */ = {
+			isa = PBXGroup;
+			children = (
+				5C2741811CA72C700087F8DA /* AppDelegate.swift */,
+				5C2741831CA72C700087F8DA /* ViewController.swift */,
+				5C2741851CA72C700087F8DA /* Main.storyboard */,
+				5C2741881CA72C700087F8DA /* Assets.xcassets */,
+				5C27418A1CA72C700087F8DA /* LaunchScreen.storyboard */,
+				5C27418D1CA72C700087F8DA /* Info.plist */,
+			);
+			path = SpeedTouch;
+			sourceTree = "<group>";
+		};
+		5C2741951CA72C700087F8DA /* SpeedTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C2741961CA72C700087F8DA /* SpeedTouchTests.swift */,
+				5C2741981CA72C700087F8DA /* Info.plist */,
+			);
+			path = SpeedTouchTests;
+			sourceTree = "<group>";
+		};
+		5C2741A01CA72C700087F8DA /* SpeedTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C2741A11CA72C700087F8DA /* SpeedTouchUITests.swift */,
+				5C2741A31CA72C700087F8DA /* Info.plist */,
+			);
+			path = SpeedTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C27417D1CA72C6F0087F8DA /* SpeedTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2741A61CA72C700087F8DA /* Build configuration list for PBXNativeTarget "SpeedTouch" */;
+			buildPhases = (
+				5C27417A1CA72C6F0087F8DA /* Sources */,
+				5C27417B1CA72C6F0087F8DA /* Frameworks */,
+				5C27417C1CA72C6F0087F8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedTouch;
+			productName = SpeedTouch;
+			productReference = 5C27417E1CA72C6F0087F8DA /* SpeedTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C2741911CA72C700087F8DA /* SpeedTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2741A91CA72C700087F8DA /* Build configuration list for PBXNativeTarget "SpeedTouchTests" */;
+			buildPhases = (
+				5C27418E1CA72C700087F8DA /* Sources */,
+				5C27418F1CA72C700087F8DA /* Frameworks */,
+				5C2741901CA72C700087F8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C2741941CA72C700087F8DA /* PBXTargetDependency */,
+			);
+			name = SpeedTouchTests;
+			productName = SpeedTouchTests;
+			productReference = 5C2741921CA72C700087F8DA /* SpeedTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C27419C1CA72C700087F8DA /* SpeedTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2741AC1CA72C700087F8DA /* Build configuration list for PBXNativeTarget "SpeedTouchUITests" */;
+			buildPhases = (
+				5C2741991CA72C700087F8DA /* Sources */,
+				5C27419A1CA72C700087F8DA /* Frameworks */,
+				5C27419B1CA72C700087F8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C27419F1CA72C700087F8DA /* PBXTargetDependency */,
+			);
+			name = SpeedTouchUITests;
+			productName = SpeedTouchUITests;
+			productReference = 5C27419D1CA72C700087F8DA /* SpeedTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C2741761CA72C6F0087F8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Paul Neuhold";
+				TargetAttributes = {
+					5C27417D1CA72C6F0087F8DA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5C2741911CA72C700087F8DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5C27417D1CA72C6F0087F8DA;
+					};
+					5C27419C1CA72C700087F8DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5C27417D1CA72C6F0087F8DA;
+					};
+				};
+			};
+			buildConfigurationList = 5C2741791CA72C6F0087F8DA /* Build configuration list for PBXProject "SpeedTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C2741751CA72C6F0087F8DA;
+			productRefGroup = 5C27417F1CA72C6F0087F8DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C27417D1CA72C6F0087F8DA /* SpeedTouch */,
+				5C2741911CA72C700087F8DA /* SpeedTouchTests */,
+				5C27419C1CA72C700087F8DA /* SpeedTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C27417C1CA72C6F0087F8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C27418C1CA72C700087F8DA /* LaunchScreen.storyboard in Resources */,
+				5C2741891CA72C700087F8DA /* Assets.xcassets in Resources */,
+				5C2741871CA72C700087F8DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2741901CA72C700087F8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C27419B1CA72C700087F8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C27417A1CA72C6F0087F8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2741841CA72C700087F8DA /* ViewController.swift in Sources */,
+				5C2741821CA72C700087F8DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C27418E1CA72C700087F8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2741971CA72C700087F8DA /* SpeedTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2741991CA72C700087F8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2741A21CA72C700087F8DA /* SpeedTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C2741941CA72C700087F8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C27417D1CA72C6F0087F8DA /* SpeedTouch */;
+			targetProxy = 5C2741931CA72C700087F8DA /* PBXContainerItemProxy */;
+		};
+		5C27419F1CA72C700087F8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C27417D1CA72C6F0087F8DA /* SpeedTouch */;
+			targetProxy = 5C27419E1CA72C700087F8DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C2741851CA72C700087F8DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C2741861CA72C700087F8DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C27418A1CA72C700087F8DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C27418B1CA72C700087F8DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C2741A41CA72C700087F8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C2741A51CA72C700087F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C2741A71CA72C700087F8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeedTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.SpeedTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C2741A81CA72C700087F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeedTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.SpeedTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C2741AA1CA72C700087F8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpeedTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.SpeedTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTouch.app/SpeedTouch";
+			};
+			name = Debug;
+		};
+		5C2741AB1CA72C700087F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpeedTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.SpeedTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedTouch.app/SpeedTouch";
+			};
+			name = Release;
+		};
+		5C2741AD1CA72C700087F8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpeedTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.SpeedTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpeedTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5C2741AE1CA72C700087F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpeedTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulneuhold.SpeedTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpeedTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C2741791CA72C6F0087F8DA /* Build configuration list for PBXProject "SpeedTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2741A41CA72C700087F8DA /* Debug */,
+				5C2741A51CA72C700087F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2741A61CA72C700087F8DA /* Build configuration list for PBXNativeTarget "SpeedTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2741A71CA72C700087F8DA /* Debug */,
+				5C2741A81CA72C700087F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C2741A91CA72C700087F8DA /* Build configuration list for PBXNativeTarget "SpeedTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2741AA1CA72C700087F8DA /* Debug */,
+				5C2741AB1CA72C700087F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C2741AC1CA72C700087F8DA /* Build configuration list for PBXNativeTarget "SpeedTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2741AD1CA72C700087F8DA /* Debug */,
+				5C2741AE1CA72C700087F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C2741761CA72C6F0087F8DA /* Project object */;
+}
