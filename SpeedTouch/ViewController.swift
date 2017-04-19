@@ -30,6 +30,9 @@ class ViewController: UIViewController {
         
      let somestuff = "10"
       print("somestuff")
+        
+
+        let evenMore = 10
 
         
     }
