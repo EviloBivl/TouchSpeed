@@ -28,8 +28,9 @@ class ViewController: UIViewController {
     
     //more unimportant stuff
         
-        
-        
+     let somestuff = "10"
+      print("somestuff")
+
         
     }
 
